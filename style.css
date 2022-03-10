@@ -1,0 +1,84 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #d1d1d1;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(45deg, #0b101f, #0e5e4c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 1em;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+footer {
+  display: flex;
+  justify-items: center;
+  gap: 1.5em;
+  margin-top: 1em;
+  color: #faf7fd;
+}
+
+a {
+  text-decoration: none;
+  filter: hue-rotate(190deg);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.link {
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 20em;
+  height: 2.5em;
+}
+
+.link:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.instaName {
+  font-weight: 300;
+  color: var(--purple);
+}
+
+.container {
+  border: 2px solid var(--purple);
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
