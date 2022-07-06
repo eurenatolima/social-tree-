@@ -33,6 +33,11 @@ main {
   gap: 1em;
 }
 
+main :hover{
+  background: blue;
+
+}
+
 footer {
   display: flex;
   justify-items: center;
